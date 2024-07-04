@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Admin Sign Up</title>
+<link rel="stylesheet" href="AdminSignup.css">
+<script></script>
+
+</head>
+<body>
+
+<div class="header">
+    <p>Welcome to the Fluent Grid</p>
+    <button onclick="location.href='AdminLogin.html'" class="login-btn">Login</button>
+</div>
+
+<div class="container">
+    <h2>Sign Up</h2>
+    <form onsubmit="postApiData(event)">
+    
+        <div class="form-group">
+            <label for="aid">Admin ID :</label>
+            <input type="number" id="aid" name="aid">
+        </div>
+        
+        <div class="form-group">
+            <label for="aname">Name :</label>
+            <input type="text" id="aname" name="aname">
+        </div>
+        
+        <div class="form-group">
+            <label for="apass">Password :</label>
+            <input type="password" id="apass" name="apass">
+        </div>
+        
+        <button type="submit" id="submit-btn">submit</button>
+    </form>
+    
+</div>
+
+</body>
+<script src="jquery-3.7.1.js"></script>
+<script src="signup.js"></script>
+</html>
+
+
+
+

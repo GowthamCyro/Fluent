@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="AdminLogin.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Fluent Grid</h1>
+        <button onclick="location.href='AdminSignup.html'">Sign Up</button>
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form onsubmit="getApiData(event)">
+            <input type="text" id="aid" name="aid" placeholder="Admin ID" required>
+            <input type="password" id="apass" name="apass" placeholder="Password" required>
+            <input type="submit" value="Login" id="w" required>
+        </form>
+    </div>
+</body>
+
+<script src="jquery-3.7.1.js"></script>
+<script src="login.js"></script>
+</html>
+

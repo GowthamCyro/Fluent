@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.header {
+    background-color: #aae228;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.ModuleLine1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.ModuleLine2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.ModuleLine1 div,.ModuleLine2 div {
+    background-color: rgb(243, 16, 16);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.ModuleLine1 div:hover {
+    transform: translateY(-5px);
+}
+.ModuleLine2 div:hover {
+    transform: translateY(-5px);
+}
+
+#nsc {
+    float: left;
+    font-size: 1.4em;
+    background-color: #f50606;
+    color: #fff;
+    margin-left: 140px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#ur {
+    
+    float: left;
+    background-color: #6105f7;
+    color: white; 
+    font-size: 1.4em;
+    margin-left: 170px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#cc {
+    float: left;
+    background-color: #100cf0;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 180px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url('wallpapersden.com_k-beautiful-landscape-digital-art_wxl.jpg');
+    background-size: cover;
+    background-position: center; /* or other values */
+    background-repeat: no-repeat; 
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#logout {
+    background-color: #f50606;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.ModuleLine1, .ModuleLine2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ModuleLine1 div, .ModuleLine2 div {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 8px;
+    flex-grow: 1;
+    margin: 0 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ModuleLine1 div:hover, .ModuleLine2 div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Creative Hover Effect */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.ModuleLine1 div:hover, .ModuleLine2 div:hover {
+    animation: pulse 2s infinite;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ModuleLine1, .ModuleLine2 {
+        flex-direction: column;
+    }
+
+    .ModuleLine1 div, .ModuleLine2 div {
+        margin: 10px 0;
+    }
+}
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
